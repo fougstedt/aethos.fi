@@ -80,7 +80,7 @@ a {
     color: #e25a13;
 }
 
-section.hero {
+header.hero {
     max-width: 768px;
     margin: 100px auto 100px auto;
     display: flex;
@@ -153,8 +153,15 @@ section.team {
     padding: 0 16px;
 
     span {
-        font-size: 12px;
+        font-size: 0.75em;
     }
+}
+
+footer {
+  margin: 50px auto;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
